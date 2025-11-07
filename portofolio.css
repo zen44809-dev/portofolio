@@ -1,0 +1,155 @@
+body{
+  background-color: #ff95c6;
+  position: absolute;
+}
+
+
+header{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.container-informasi{
+    display: flex;
+}
+
+.card {
+    background-color: white;
+  margin-top: 1000px;
+  margin-left: 10px;
+  border-radius: 20px;
+  height: 250px;
+  flex: 1;
+  transition: 0.3s all ease;
+  text-align: center;
+  color: rgb(0, 0, 0); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+}
+
+.card:hover{
+    flex: 2;
+    background-color: rgb(237, 237, 237);
+}
+
+img{
+    margin-top: 0%;
+    margin-left: 70%;
+}
+
+.container-awal{
+    position: relative;
+}
+
+.hi{
+    position: absolute;
+    top: 10px;
+    left: 43%;
+    transform: translate(-50%);
+}
+
+.hai{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+body p{
+    position:absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container-2{
+    display: flex;
+}
+.card1 {
+    background-position: center;
+    background-image: url(datasiswa.png);
+    background-color: white;
+  margin-top: 100px;
+  margin-left: 10px;
+  border-radius: 20px;
+  height: 250px;
+  flex: 1;
+  transition: 0.3s all ease;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.card1:hover{
+    flex: 2;
+    background-color: rgb(235, 235, 235);
+}
+
+.card3 {
+    background-position: center;
+    background-image: url(websch.png);
+    background-color: #ffffff;
+  margin-top: 100px;
+  margin-left: 10px;
+  border-radius: 20px;
+  height: 250px;
+  flex: 1;
+  transition: 0.3s all ease;
+  text-align: center;
+  color: rgb(0, 0, 0); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+}
+
+
+.card3:hover{
+    flex: 2;
+    background-color: rgb(235, 235, 235);
+}
+
+
+hr {
+    height: 5px;
+    background-color: black;
+    border: none;
+}
+
+.kartu{
+    height: 500px;
+    width: 1000px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50% ,25%);
+}
+
+body h3{
+    position: absolute;
+    left: 50%;
+    top: 1350px;
+    transform: translate(-50%);
+    width: 150px;
+    height: 25px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+}
